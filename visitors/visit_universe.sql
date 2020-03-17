@@ -64,7 +64,7 @@ truncate table dims.v_potential_registration;
 insert into dims.v_potential_registration
 
 select user_uuid
-, id as potential_registration_id
+, potential_registration_id as potential_registration_id
 ,'user_subscribed' as potential_registration_type
 ,min(created_at) as potential_registration_created_at
 

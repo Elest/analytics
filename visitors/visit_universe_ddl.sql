@@ -147,7 +147,7 @@ CREATE TABLE IF NOT EXISTS dims.visit
 	,campaign VARCHAR(2100)   ENCODE lzo
 	,content VARCHAR(2100)   ENCODE lzo
 	,term VARCHAR(2100)   ENCODE lzo
-	,gclid VARCHAR(200)   ENCODE lzo
+	,gclid VARCHAR(2100)   ENCODE lzo
 )
 DISTSTYLE KEY
  DISTKEY (user_uuid)

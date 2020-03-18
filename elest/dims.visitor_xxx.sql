@@ -1,4 +1,4 @@
---dims.visitor_monthly
+---dims.visitor_monthly
 with visitor_date as (
 	select user_uuid
 	, min(created_at) as first_visitor_date
